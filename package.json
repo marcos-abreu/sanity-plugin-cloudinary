@@ -11,7 +11,7 @@
   "scripts": {
     "build": "sanipack build",
     "watch": "sanipack build --watch",
-    "prepublishOnly": "sanipack build && sanipack verify"
+    "prepare": "sanipack build && sanipack verify"
   },
   "peerDependencies": {
     "@sanity/base": "^2.6.2",
